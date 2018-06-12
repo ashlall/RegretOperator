@@ -16,6 +16,7 @@
 //    You should have received a copy of the GNU General Public License
 //along with this program. If not, see <http://www.gnu.org/licenses/>.
 //==========================================================================================
+
 #ifndef SPHERE_H
 #define SPHERE_H
 
@@ -26,9 +27,17 @@
 #include "lp.h"
 
 // The complete Sphere algorithm
+// Parameter:
+// -point_set: the set of all point p in the database
+// -k: the number of item in the returning set
+// return the desire set S of k point
 point_set_t* sphereWSImpLP(point_set_t* point_set, int k);
 
 // The ImpGreedy algorithm with only Step 4 of Sphere for comparison
+// Parameter:
+// - point_set: the set of all point p in the database
+// - k: the number of item in the returning set
+// return the desire set S of k point
 point_set_t* ImpGreedy(int K, point_set_t *p);
 
 #endif
