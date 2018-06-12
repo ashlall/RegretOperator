@@ -1,3 +1,22 @@
+//==========================================================================================
+//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang, Nguyen, Matthew Rinker, Ashwin Lall
+//
+//This file is a part of the RegretOperator project.
+//
+//The RegretOperator project is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//
+//    The RegretOperator project is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//   GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//along with this program. If not, see <http://www.gnu.org/licenses/>.
+//==========================================================================================
+
 //#include "stdafx.h"
 
 #include "sphere.h"
@@ -65,7 +84,7 @@ point_set_t* construct_I(int dim, int k)
 					p->coord[l] = temp_p.at(l - 1);
 			}
 
-			// put the resulting point in I, remenber to scale the point so that it lies on the sphere of radius 
+			// put the resulting point in I, remenber to scale the point so that it lies on the sphere of radius
 			I->points[index++] = scale( R / calc_len(p), p);
 		}
 	}
@@ -180,7 +199,7 @@ void basisComputation(point_set_t*& X, point_t*& NN, point_t* p, point_t* x)
 		}
 		X->numberOfPoints--;
 
-		//set new NN: NN = NN + (q_X - NN) * lambda 
+		//set new NN: NN = NN + (q_X - NN) * lambda
 		for (int i = 0; i < d; i++)
 			NN->coord[i] = NN->coord[i] + (q_X->coord[i] - NN->coord[i]) * maxLambda;
 
@@ -206,7 +225,7 @@ void search_basis(point_set_t* P, point_set_t* T, point_t* NN_T, point_t* x, poi
 	for (int i = 0; i < T->numberOfPoints; i++)
 		X->points[i] = T->points[i];
 	NN_X = copy(NN_T);
-	
+
 	// check the points in P one by one
 	for (int i = 0; i < P->numberOfPoints; i++)
 	{
@@ -228,7 +247,7 @@ void search_basis(point_set_t* P, point_set_t* T, point_t* NN_T, point_t* x, poi
 		count++;
 		Q->numberOfPoints++;
 
-		// The violation test: check whether we can improve the distance by incorporate p 
+		// The violation test: check whether we can improve the distance by incorporate p
 		if (isViolated(x, NN_X, p))
 		{
 			basisComputation(X, NN_X, p, x);
@@ -300,7 +319,7 @@ point_set_t* sphereWSImpLP(point_set_t* point_set, int k)
 			}
 		}
 	}
-	
+
 	int count = dim;
 	if (k >= 2 * dim)
 	{
@@ -428,7 +447,7 @@ point_set_t* sphereWSImpLP(point_set_t* point_set, int k)
 	delete[] rr;
 	delete[] active;
 	delete[] b_value;
-	
+
 	release_point_set(directions, true);
 	return result;
 }
@@ -549,6 +568,3 @@ point_set_t* ImpGreedy(int k, point_set_t* point_set)
 	release_point_set(directions, true);
 	return result;
 }
-
-
-

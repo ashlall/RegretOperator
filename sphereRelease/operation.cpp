@@ -1,3 +1,22 @@
+//==========================================================================================
+//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang, Nguyen, Matthew Rinker, Ashwin Lall
+//
+//This file is a part of the RegretOperator project.
+//
+//The RegretOperator project is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//
+//    The RegretOperator project is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//   GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//along with this program. If not, see <http://www.gnu.org/licenses/>.
+//==========================================================================================
+
 //#include "stdafx.h"
 
 #include "operation.h"
@@ -37,7 +56,7 @@ DIST_TYPE calc_dist( point_t* point_v1, point_t* point_v2)
 	DIST_TYPE diff;
 
 	diff = 0;
-	
+
 	dim = point_v1->dim;
 	for( i=0; i<dim; i++)
 	{
@@ -58,7 +77,7 @@ DIST_TYPE calc_len(point_t* point_v)
 	DIST_TYPE diff;
 
 	diff = 0;
-	
+
 	dim = point_v->dim;
 	for( i=0; i<dim; i++)
 	{
@@ -180,7 +199,7 @@ bool  isViolated(point_t* normal_q, point_t* normal_p, point_t* e)
 	bool result;
 	point_t* temp_normal = sub(normal_q, normal_p);
 	point_t* temp = sub(e, normal_p);
-	
+
 	//use the dot product to determin the above/below relation
 	if(dot_prod(temp_normal, temp) > 0 && !isZero(dot_prod(temp_normal, temp)))
 		result = true;
@@ -202,7 +221,7 @@ point_t* maxPoint(point_set_t* p, double *v)
 
 	int i, maxIndex = 0;
 	double max = 0.0;
-	
+
 	for(i = 0; i < N; ++i)
 		if (dot_prod(p->points[i], v) > max)
 		{
@@ -280,14 +299,14 @@ vector<double> gaussNtimesD(vector< vector<double> > A) {
 
 	// Solve equation Ax=b for an upper triangular matrix A
 	vector<double> x(d);
-	
+
 	for (int i = d - 1; i >= 0; i--) {
 		x[i] = A[i][d] / A[i][i];
 		for (int k = i - 1; k >= 0; k--) {
 			A[k][d] -= A[k][i] * x[i];
 		}
 	}
-	
+
 	return x;
 }
 
@@ -322,7 +341,7 @@ point_t* projectPointsOntoAffineSpace(point_set_t* space, point_t* p)
 		}
 
 	}
-	
+
 	for (int i = 0; i < dirVecs->numberOfPoints; i++)
 	{
 		double norm = calc_len(dirVecs->points[i]);
@@ -386,7 +405,7 @@ Vvi build_input(int t, int dim) {
 */
 void cart_product(
 	Vvi& rvvi,  // final result
-	Vi&  rvi,   // current result 
+	Vi&  rvi,   // current result
 	Vvi::const_iterator me, // current input
 	Vvi::const_iterator end) // final input
 {
@@ -470,7 +489,7 @@ point_set_t* skyline_point(point_set_t *p)
 		dominated = 0;
 		pt = p->points[i];
 
-		// check if pt is dominated by the skyline so far   
+		// check if pt is dominated by the skyline so far
 		for (j = 0; j < index && !dominated; ++j)
 			if (dominates(p->points[sl[j]], pt))
 				dominated = 1;
