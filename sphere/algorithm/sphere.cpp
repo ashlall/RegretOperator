@@ -20,11 +20,13 @@
 //#include "stdafx.h"
 #include "sphere.h"
 
+//==============================================================================
 // construct I in Sphere (Step 2)
 // Parameter :
 // - dim: the number of dimension for the data set
 // - k: the number of point in the returning set
 // return : the set I such that it it equally distributed over the sphere
+//==============================================================================
 point_set_t* construct_I(int dim, int k)
 {
   double R = 2 * sqrt(dim);
@@ -92,15 +94,16 @@ point_set_t* construct_I(int dim, int k)
   return I;
 }
 
+//==============================================================================
 // The primitive operation: basic computation
 // Compute an updated basic with by incoporating p to the old basic X
 // X must have size dim + 1
 // Parameter:
-// -X:
+// -X: the set of old basic
 // -NN:
-// -p:
+// -p: the new point that just incorporate into a new basic
 // -x:
-
+//==============================================================================
 void basisComputation(point_set_t*& X, point_t*& NN, point_t* p, point_t* x)
 {
   if (!isViolated(x, NN, p))
@@ -212,15 +215,17 @@ void basisComputation(point_set_t*& X, point_t*& NN, point_t* p, point_t* x)
   }
 }
 
-// The recursion call of the P-basic computation in "A combinatorial bound for linear programming and related problems"
+//==============================================================================
+// The recursion call of the P-basic computation in "A combinatorial bound
+// for linear programming and related problems"
 // Parameter:
-// - P:
+// - P: The set of all point in the database
 // - T:
 // - NN_T:
-// - x:
-// - X:
+// - x: the point in I
+// - X: the set of P-basis
 // - NN_X:
-
+//==============================================================================
 void search_basis(point_set_t* P, point_set_t* T, point_t* NN_T, point_t* x, point_set_t*& X, point_t*& NN_X)
 {
   int dim = P->points[0]->dim;
@@ -284,11 +289,14 @@ void search_basis(point_set_t* P, point_set_t* T, point_t* NN_T, point_t* x, poi
   release_point_set(Q, false);
 }
 
-// The P-basic computation in "A combinatorial bound for linear programming and related problems"
+//==============================================================================
+// The P-basic computation in "A combinatorial bound
+// for linear programming and related problems"
 //Parameter:
-//- point_set_t:
-//- query:
-// return
+//- point_set_t: set of all point in the database
+//- query: a point in a set I
+// return: set of point that form a P basic for each query
+//==============================================================================
 point_set_t* search_basis(point_set_t* point_set_v, point_t* query)
 {
 
@@ -297,12 +305,15 @@ point_set_t* search_basis(point_set_t* point_set_v, point_t* query)
 
   int dim = P->points[0]->dim;
 
+  //TO DO: what is set T for?
   point_set_t* T = alloc_point_set(dim + 1);
   T->numberOfPoints = 1;
   T->points[0] = P->points[0];
 
+  //TO DO: what is NN_T for?
   point_t* NN_T = copy(P->points[0]);
 
+  //TO DO: what is NN_X for?
   point_set_t* X;
   point_t* NN_X;
 
@@ -314,11 +325,13 @@ point_set_t* search_basis(point_set_t* point_set_v, point_t* query)
   return X;
 }
 
+//==============================================================================
 // The complete Sphere algorithm
 //Parameter:
 // - point_set_t: all the point in the database
 // - k: number of point in the return set S
 // return: the set S that mimize the MRR
+//==============================================================================
 point_set_t* sphereWSImpLP(point_set_t* point_set, int k)
 {
   int dim = point_set->points[0]->dim;
@@ -336,6 +349,7 @@ point_set_t* sphereWSImpLP(point_set_t* point_set, int k)
       if (point_set->points[i]->coord[j] > b_value[j])
       {
         b_value[j] = point_set->points[i]->coord[j];
+        //result holds the d boundary points from point_set
         result->points[j] = point_set->points[i];
       }
     }
@@ -360,13 +374,13 @@ point_set_t* sphereWSImpLP(point_set_t* point_set, int k)
         bool isNew = true;
         for (int p = 0; p < count; p++)
         {
+          //check to see if it is a boundary point
           if (basis->points[j]->id == result->points[p]->id)
           {
             isNew = false;
             break;
           }
         }
-
         if (isNew)
           result->points[count++] = basis->points[j];
       }
@@ -473,11 +487,13 @@ point_set_t* sphereWSImpLP(point_set_t* point_set, int k)
   return result;
 }
 
+//==============================================================================
 // The ImpGreedy algorithm with only Step 4 of Sphere for comparison
 //Paremeter:
 //- point_set: the set of point p in the database
 //- k: the number of point in the returning set S
 // return: the set S that minimize the MRR
+//==============================================================================
 point_set_t* ImpGreedy(int k, point_set_t* point_set)
 {
   int dim = point_set->points[0]->dim;
