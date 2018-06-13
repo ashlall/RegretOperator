@@ -17,8 +17,8 @@
 //along with this program. If not, see <http://www.gnu.org/licenses/>.
 //==========================================================================================
 
-#ifndef REGRETOPERATOR_SRC_CUBE_H_
-#define REGRETOPERATOR_SRC_CUBE_H_
+#ifndef REGRETOPERATOR_SRC_CUBE_CUBE_H_
+#define REGRETOPERATOR_SRC_CUBE_CUBE_H_
 
 #include "point.h"
 
