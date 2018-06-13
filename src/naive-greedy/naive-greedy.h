@@ -17,8 +17,8 @@
 //along with this program. If not, see <http://www.gnu.org/licenses/>.
 //==========================================================================================
 
-#ifndef REGRETOPERATOR_SRC_CUBE_NAIVEGREEDY_H_
-#define REGRETOPERATOR_SRC_CUBE_NAIVEGREEDY_H_
+#ifndef REGRETOPERATOR_SRC_NAIVEGREEDY_NAIVEGREEDY_H_
+#define REGRETOPERATOR_SRC_NAIVEGREEDY_NAIVEGREEDY_H_
 
 int pointcmp(const void *a, const void *b);
 double L2Distance(struct point p, struct point q);
