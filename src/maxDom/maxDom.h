@@ -24,8 +24,8 @@
 // MaxDom.h
 //===================================================================
 
-#ifndef MAXDOM
-#define MAXDOM
+#ifndef REGRETOPERATOR_SRC_MAXDOM_MAXDOM_H_
+#define REGRETOPERATOR_SRC_MAXDOM_MAXDOM_H_
 
 void dominance_greedy(int D, int N, int K, struct point *s, int skylineSize, struct point *sky, int *maxIndex);
 
