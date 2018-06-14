@@ -17,12 +17,11 @@
 //along with this program. If not, see <http://www.gnu.org/licenses/>.
 //==========================================================================================
 
-#ifndef REGRETOPERATOR_SRC_CUBE_CUBE_H_
-#define REGRETOPERATOR_SRC_CUBE_CUBE_H_
+#ifndef REGRETOPERATOR_SRC_NAIVEGREEDY_NAIVEGREEDY_H_
+#define REGRETOPERATOR_SRC_NAIVEGREEDY_NAIVEGREEDY_H_
 
-#include "point.h"
-
-void cube(int D, int N, int K, struct point *p, int *maxIndex);
-int cubealgorithm(int D, int N, int K, struct point *p, int L, int t, struct point *c, struct point *answer);
-
+int pointcmp(const void *a, const void *b);
+double L2Distance(struct point p, struct point q);
+double CenterDistance(int index, struct point *sol, struct point p);
+void NaiveGreedy(int D, int N, int K, struct point *p, int *maxIndex);
 #endif

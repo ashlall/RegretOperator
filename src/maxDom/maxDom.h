@@ -16,13 +16,17 @@
 //    You should have received a copy of the GNU General Public License
 //along with this program. If not, see <http://www.gnu.org/licenses/>.
 //==========================================================================================
+//
+//===================================================================
+// This function implements the approximate algorithm for retrieving
+// max-dominance representative skyline (Algorithm 1 in Lin et al. [ICDE'07])
+// Coded by Danupon Nanongkai Nov. 16, 2009 
+// MaxDom.h
+//===================================================================
 
-#ifndef REGRETOPERATOR_SRC_CUBE_CUBE_H_
-#define REGRETOPERATOR_SRC_CUBE_CUBE_H_
+#ifndef REGRETOPERATOR_SRC_MAXDOM_MAXDOM_H_
+#define REGRETOPERATOR_SRC_MAXDOM_MAXDOM_H_
 
-#include "point.h"
-
-void cube(int D, int N, int K, struct point *p, int *maxIndex);
-int cubealgorithm(int D, int N, int K, struct point *p, int L, int t, struct point *c, struct point *answer);
+void dominance_greedy(int D, int N, int K, struct point *s, int skylineSize, struct point *sky, int *maxIndex);
 
 #endif
