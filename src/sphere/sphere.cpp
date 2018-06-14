@@ -234,17 +234,27 @@ void search_basis(point_set_t* P, point_set_t* T, point_t* NN_T, point_t* x, poi
   int dim = P->points[0]->dim;
   int count;
 
+  //TO DO: what is set Q for?
+  // set Q have same  number of point as P?
   point_set_t* Q = alloc_point_set(P->numberOfPoints);
 
+  // set Q have dim+1 dimension?
   Q->numberOfPoints = T->numberOfPoints;
+  //set Q is the same as set T?
   for (int i = 0; i < T->numberOfPoints; i++)
     Q->points[i] = T->points[i];
+  //count = dim+1?
   count = Q->numberOfPoints;
 
+  //X has dim+1 point?
   X = alloc_point_set(dim + 1);
+
   X->numberOfPoints = T->numberOfPoints;
+  //X has same as T?
   for (int i = 0; i < T->numberOfPoints; i++)
     X->points[i] = T->points[i];
+
+  //NN_X is same as NN_T?
   NN_X = copy(NN_T);
 
   // check the points in P one by one
@@ -309,15 +319,19 @@ point_set_t* search_basis(point_set_t* point_set_v, point_t* query)
   int dim = P->points[0]->dim;
 
   //TO DO: what is set T for?
+  //Create a set T with dim + 1 number of point
   point_set_t* T = alloc_point_set(dim + 1);
+
+  //Reset the number of Point to 1.
   T->numberOfPoints = 1;
   T->points[0] = P->points[0];
 
   //TO DO: what is NN_T for?
+  // First point in the database?
   point_t* NN_T = copy(P->points[0]);
 
-  //TO DO: what is NN_X for?
   point_set_t* X;
+  //TO DO: what is NN_X for?
   point_t* NN_X;
 
   // recusion
