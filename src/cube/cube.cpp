@@ -1,5 +1,5 @@
 //==========================================================================================
-//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang, Nguyen, Matthew Rinker, Ashwin Lall 
+//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang Nguyen, Matthew Rinker, Ashwin Lall 
 //
 //This file is a part of the RegretOperator project.
 //
