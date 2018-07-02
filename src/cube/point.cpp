@@ -1,5 +1,5 @@
 //==========================================================================================
-//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang Nguyen, Matthew Rinker, Ashwin Lall 
+//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang Nguyen, Matthew Rinker, Ashwin Lall
 //
 //This file is a part of the RegretOperator project.
 //
@@ -33,7 +33,7 @@ double dot(struct point p, double* w)
 // 		struct point p;
 
 // Returns the dot product of vector p and w.
-// p is the data point 
+// p is the data point
 // w is the tuple representing a utilify function
 	double product = 0.0;
 	int i;
@@ -47,11 +47,11 @@ double dot(struct point p, double* w)
 
 struct point maxPoint(int N, struct point *p, double *v)
 {
-// Finds farthest in direction v. 
+// Finds farthest in direction v.
 // This method is intended to find the boundary points
 	int i, maxIndex = 0;
 	double max = 0.0;
-	
+
 	for(i = 0; i < N; ++i)
 		if (dot(p[i], v) > max)
 		{
@@ -61,22 +61,19 @@ struct point maxPoint(int N, struct point *p, double *v)
 
 	return p[maxIndex];
 }
-		
+
 
 // Prints the components of a point
-double print(struct point p)
+double print(struct  point p)
 {
-	int i;
-	for(i = 0; i < p.d; ++i)
-		printf("%lf ", p.a[i]);
+	for(int i = 0; i < p.d; ++i)
+		printf("%lf ",p.a[i]);
 	printf("\n");
-	
-	return 0;
-	
+  return 0;
 }
 
 
-int pointcmp(const void *a, const void *b) 
+int pointcmp(const void *a, const void *b)
 {
 // Compares two points lexicographically.
 // Return values:
@@ -90,7 +87,7 @@ int pointcmp(const void *a, const void *b)
 	int i;
 
 	for(i = 0; i < ((struct point*)a)->d; ++i)
-	{ 
+	{
 		if (((struct point*)a)->a[i] < ((struct point*)b)->a[i]) return -1;
 		if (((struct point*)a)->a[i] > ((struct point*)b)->a[i]) return 1;
 	}
@@ -119,4 +116,3 @@ int equals(struct point p1, struct point p2)
 // In other words, if pointcamp returns 0.
 	return pointcmp(&p1, &p2) == 0;
 }
-
