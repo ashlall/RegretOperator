@@ -4,7 +4,7 @@ Assumes that number of points is a multiple of k
 */
 
 #include <stdio.h>
-
+#include <string>
 int main(int argc, char** argv)
 {
 	int i, j, l, size, k;
@@ -20,7 +20,7 @@ int main(int argc, char** argv)
 		return -1;
 	}
 
-	k = atoi(argv[2]);
+	k = std::stoi(argv[2]);
 
 	// read points from file
 	sprintf(filename, "Data/%s", argv[1]);

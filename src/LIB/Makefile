@@ -9,12 +9,19 @@ OBJ = point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
 #***************************************************
 #Targets needed to bring the executable up to date
 
-all:	nba_vary-k	datacompare	vary-D	vary-M	vary-db	vary-n	vary-k	clean
+all:	nba_vary-K	datacompare	vary-D	vary-M	vary-db	vary-N	vary-K	generatedata split clean
 
 datacompare: data-compare.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
 		$(CXX) $(CXXFLAGS) -o datacompare $(OBJ) data-compare.o -lglpk -lm
-nba_vary-k: nba_vary-k.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
-		$(CXX) $(CXXFLAGS) -o nba_vary-k $(OBJ) nba_vary-k.o -lglpk -lm
+
+generatedata: generatedata.o
+		$(CXX) $(CXXFLAGS) -o generatedata generatedata.o
+
+split: split.o
+		$(CXX) $(CXXFLAGS) -o split split.o
+
+nba_vary-K: nba_vary-K.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
+		$(CXX) $(CXXFLAGS) -o nba_vary-K $(OBJ) nba_vary-K.o -lglpk -lm
 
 
 vary-D: vary-D.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
@@ -23,31 +30,37 @@ vary-D: vary-D.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o l
 vary-M:  vary-M.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
 		$(CXX) $(CXXFLAGS) -o vary-M $(OBJ) vary-M.o -lglpk -lm
 
-vary-n:  vary-n.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
-		$(CXX) $(CXXFLAGS) -o vary-n $(OBJ) vary-n.o -lglpk -lm
+vary-N:  vary-N.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
+		$(CXX) $(CXXFLAGS) -o vary-N $(OBJ) vary-N.o -lglpk -lm
 
 vary-db:  vary-db.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
 		$(CXX) $(CXXFLAGS) -o vary-db $(OBJ) vary-db.o -lglpk -lm
 
-vary-k:  vary-k.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
-		$(CXX) $(CXXFLAGS) -o vary-k $(OBJ) vary-k.o -lglpk -lm
+vary-K:  vary-K.o point.o cube.o LIB_Util.o sphere.o data_utility.o operation.o lp.o
+		$(CXX) $(CXXFLAGS) -o vary-K $(OBJ) vary-K.o -lglpk -lm
 #the test_phere.o target can be written more simply
 
-nba_vary-k.o: nba_vary-k.cpp
-	$(CXX) $(CXXFLAGS) -c nba_vary-k.cpp
+generatedata.o:
+	$(CXX) $(CXXFLAGS) -c generatedata.cpp
+
+split.o:
+	$(CXX) $(CXXFLAGS) -c split.cpp
+
+nba_vary-K.o: nba_vary-K.cpp
+	$(CXX) $(CXXFLAGS) -c nba_vary-K.cpp
 
 data-compare.o: data-compare.cpp
 	$(CXX) $(CXXFLAGS) -c data-compare.cpp
 
-vary-k.o: vary-k.cpp
-	$(CXX) $(CXXFLAGS) -c vary-k.cpp
+vary-K.o: vary-K.cpp
+	$(CXX) $(CXXFLAGS) -c vary-K.cpp
 
 vary-M.o: vary-M.cpp
 	$(CXX) $(CXXFLAGS) -c vary-M.cpp
 
 
-vary-n.o: vary-n.cpp
-	$(CXX) $(CXXFLAGS) -c vary-n.cpp
+vary-N.o: vary-N.cpp
+	$(CXX) $(CXXFLAGS) -c vary-N.cpp
 
 
 vary-db.o: vary-db.cpp

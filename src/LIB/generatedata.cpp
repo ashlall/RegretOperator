@@ -221,7 +221,7 @@ int main(int argc, char** argv)
 // main program
 {
   if (argc < 5) {
-    printf("Syntax: generate <Dimensions> <Distribution> <Number> <File>\n");
+    printf("Syntax: generatedata <Dimensions> <Distribution> <NumberofPoints> <Filename>\n");
     printf(" Distributions = E(qually) | C(orrelated) | A(nti-correlated)\n\n");
   } else {
     if (argc >= 6)

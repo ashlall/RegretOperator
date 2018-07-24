@@ -1,0 +1,300 @@
+Cube        ,db=1, M=0.100000, 0.274329
+Cube LIB       ,db=10000, M=0.100000, 0.423095
+Sphere      ,db=1, M=0.100000, 0.043823
+Sphere LIB     ,db=1, M=0.100000 , 0.449272
+ImpGreedy      ,db=1, M=0.100000, 0.061560
+ImpGreedy LIB       ,db=0.100000, M=1, 0.490713
+Cube        ,db=1, M=0.100000, 0.269210
+Cube LIB       ,db=10000, M=0.100000, 0.437651
+Sphere      ,db=1, M=0.100000, 0.050149
+Sphere LIB     ,db=1, M=0.100000 , 0.500056
+ImpGreedy      ,db=1, M=0.100000, 0.060367
+ImpGreedy LIB       ,db=0.100000, M=1, 0.489780
+Cube        ,db=1, M=0.100000, 0.265807
+Cube LIB       ,db=10000, M=0.100000, 0.458335
+Sphere      ,db=1, M=0.100000, 0.046300
+Sphere LIB     ,db=1, M=0.100000 , 0.451601
+ImpGreedy      ,db=1, M=0.100000, 0.057435
+ImpGreedy LIB       ,db=0.100000, M=1, 0.431878
+Cube        ,db=1, M=0.100000, 0.289097
+Cube LIB       ,db=10000, M=0.100000, 0.430260
+Sphere      ,db=1, M=0.100000, 0.044151
+Sphere LIB     ,db=1, M=0.100000 , 0.419366
+ImpGreedy      ,db=1, M=0.100000, 0.052500
+ImpGreedy LIB       ,db=0.100000, M=1, 0.415433
+Cube        ,db=1, M=0.100000, 0.293340
+Cube LIB       ,db=10000, M=0.100000, 0.440345
+Sphere      ,db=1, M=0.100000, 0.053387
+Sphere LIB     ,db=1, M=0.100000 , 0.457968
+ImpGreedy      ,db=1, M=0.100000, 0.051724
+ImpGreedy LIB       ,db=0.100000, M=1, 0.434495
+Cube        ,db=1, M=0.100000, 0.303890
+Cube LIB       ,db=10000, M=0.100000, 0.461760
+Sphere      ,db=1, M=0.100000, 0.051674
+Sphere LIB     ,db=1, M=0.100000 , 0.449500
+ImpGreedy      ,db=1, M=0.100000, 0.054392
+ImpGreedy LIB       ,db=0.100000, M=1, 0.452369
+Cube        ,db=1, M=0.100000, 0.297886
+Cube LIB       ,db=10000, M=0.100000, 0.462263
+Sphere      ,db=1, M=0.100000, 0.052657
+Sphere LIB     ,db=1, M=0.100000 , 0.461705
+ImpGreedy      ,db=1, M=0.100000, 0.054679
+ImpGreedy LIB       ,db=0.100000, M=1, 0.448026
+Cube        ,db=1, M=0.100000, 0.309136
+Cube LIB       ,db=10000, M=0.100000, 0.459002
+Sphere      ,db=1, M=0.100000, 0.051187
+Sphere LIB     ,db=1, M=0.100000 , 0.447180
+ImpGreedy      ,db=1, M=0.100000, 0.054329
+ImpGreedy LIB       ,db=0.100000, M=1, 0.448820
+Cube        ,db=1, M=0.100000, 0.309149
+Cube LIB       ,db=10000, M=0.100000, 0.451717
+Sphere      ,db=1, M=0.100000, 0.050585
+Sphere LIB     ,db=1, M=0.100000 , 0.454957
+ImpGreedy      ,db=1, M=0.100000, 0.052812
+ImpGreedy LIB       ,db=0.100000, M=1, 0.452890
+Cube        ,db=1, M=0.100000, 0.310054
+Cube LIB       ,db=10000, M=0.100000, 0.448978
+Sphere      ,db=1, M=0.100000, 0.049813
+Sphere LIB     ,db=1, M=0.100000 , 0.448410
+ImpGreedy      ,db=1, M=0.100000, 0.052608
+ImpGreedy LIB       ,db=0.100000, M=1, 0.447710
+Cube        ,db=2, M=0.200000, 0.300775
+Cube LIB       ,db=10000, M=0.200000, 0.430004
+Sphere      ,db=2, M=0.200000, 0.058248
+Sphere LIB     ,db=2, M=0.200000 , 0.450025
+ImpGreedy      ,db=2, M=0.200000, 0.064565
+ImpGreedy LIB       ,db=0.200000, M=2, 0.416173
+Cube        ,db=2, M=0.200000, 0.346425
+Cube LIB       ,db=10000, M=0.200000, 0.422977
+Sphere      ,db=2, M=0.200000, 0.057631
+Sphere LIB     ,db=2, M=0.200000 , 0.404508
+ImpGreedy      ,db=2, M=0.200000, 0.059352
+ImpGreedy LIB       ,db=0.200000, M=2, 0.378259
+Cube        ,db=2, M=0.200000, 0.340177
+Cube LIB       ,db=10000, M=0.200000, 0.421669
+Sphere      ,db=2, M=0.200000, 0.053099
+Sphere LIB     ,db=2, M=0.200000 , 0.377004
+ImpGreedy      ,db=2, M=0.200000, 0.054207
+ImpGreedy LIB       ,db=0.200000, M=2, 0.342751
+Cube        ,db=2, M=0.200000, 0.343604
+Cube LIB       ,db=10000, M=0.200000, 0.392108
+Sphere      ,db=2, M=0.200000, 0.057051
+Sphere LIB     ,db=2, M=0.200000 , 0.392379
+ImpGreedy      ,db=2, M=0.200000, 0.054845
+ImpGreedy LIB       ,db=0.200000, M=2, 0.361072
+Cube        ,db=2, M=0.200000, 0.332675
+Cube LIB       ,db=10000, M=0.200000, 0.413403
+Sphere      ,db=2, M=0.200000, 0.057285
+Sphere LIB     ,db=2, M=0.200000 , 0.387075
+ImpGreedy      ,db=2, M=0.200000, 0.057600
+ImpGreedy LIB       ,db=0.200000, M=2, 0.375499
+Cube        ,db=2, M=0.200000, 0.338132
+Cube LIB       ,db=10000, M=0.200000, 0.434912
+Sphere      ,db=2, M=0.200000, 0.056526
+Sphere LIB     ,db=2, M=0.200000 , 0.376088
+ImpGreedy      ,db=2, M=0.200000, 0.055465
+ImpGreedy LIB       ,db=0.200000, M=2, 0.350352
+Cube        ,db=2, M=0.200000, 0.332925
+Cube LIB       ,db=10000, M=0.200000, 0.444080
+Sphere      ,db=2, M=0.200000, 0.058459
+Sphere LIB     ,db=2, M=0.200000 , 0.386677
+ImpGreedy      ,db=2, M=0.200000, 0.055387
+ImpGreedy LIB       ,db=0.200000, M=2, 0.346354
+Cube        ,db=2, M=0.200000, 0.328883
+Cube LIB       ,db=10000, M=0.200000, 0.448851
+Sphere      ,db=2, M=0.200000, 0.060893
+Sphere LIB     ,db=2, M=0.200000 , 0.391543
+ImpGreedy      ,db=2, M=0.200000, 0.054759
+ImpGreedy LIB       ,db=0.200000, M=2, 0.340592
+Cube        ,db=2, M=0.200000, 0.327080
+Cube LIB       ,db=10000, M=0.200000, 0.427308
+Sphere      ,db=2, M=0.200000, 0.060173
+Sphere LIB     ,db=2, M=0.200000 , 0.381685
+ImpGreedy      ,db=2, M=0.200000, 0.054015
+ImpGreedy LIB       ,db=0.200000, M=2, 0.336811
+Cube        ,db=2, M=0.200000, 0.319568
+Cube LIB       ,db=10000, M=0.200000, 0.428421
+Sphere      ,db=2, M=0.200000, 0.057866
+Sphere LIB     ,db=2, M=0.200000 , 0.366121
+ImpGreedy      ,db=2, M=0.200000, 0.051962
+ImpGreedy LIB       ,db=0.200000, M=2, 0.323556
+Cube        ,db=3, M=0.300000, 0.415727
+Cube LIB       ,db=10000, M=0.300000, 0.429606
+Sphere      ,db=3, M=0.300000, 0.031209
+Sphere LIB     ,db=3, M=0.300000 , 0.055054
+ImpGreedy      ,db=3, M=0.300000, 0.023910
+ImpGreedy LIB       ,db=0.300000, M=3, 0.100546
+Cube        ,db=3, M=0.300000, 0.389813
+Cube LIB       ,db=10000, M=0.300000, 0.390861
+Sphere      ,db=3, M=0.300000, 0.036256
+Sphere LIB     ,db=3, M=0.300000 , 0.127644
+ImpGreedy      ,db=3, M=0.300000, 0.034146
+ImpGreedy LIB       ,db=0.300000, M=3, 0.106963
+Cube        ,db=3, M=0.300000, 0.348848
+Cube LIB       ,db=10000, M=0.300000, 0.369870
+Sphere      ,db=3, M=0.300000, 0.039852
+Sphere LIB     ,db=3, M=0.300000 , 0.132874
+ImpGreedy      ,db=3, M=0.300000, 0.042261
+ImpGreedy LIB       ,db=0.300000, M=3, 0.122572
+Cube        ,db=3, M=0.300000, 0.344811
+Cube LIB       ,db=10000, M=0.300000, 0.356850
+Sphere      ,db=3, M=0.300000, 0.044440
+Sphere LIB     ,db=3, M=0.300000 , 0.147159
+ImpGreedy      ,db=3, M=0.300000, 0.041426
+ImpGreedy LIB       ,db=0.300000, M=3, 0.122271
+Cube        ,db=3, M=0.300000, 0.324112
+Cube LIB       ,db=10000, M=0.300000, 0.384913
+Sphere      ,db=3, M=0.300000, 0.047189
+Sphere LIB     ,db=3, M=0.300000 , 0.172216
+ImpGreedy      ,db=3, M=0.300000, 0.047054
+ImpGreedy LIB       ,db=0.300000, M=3, 0.169609
+Cube        ,db=3, M=0.300000, 0.321176
+Cube LIB       ,db=10000, M=0.300000, 0.398816
+Sphere      ,db=3, M=0.300000, 0.050520
+Sphere LIB     ,db=3, M=0.300000 , 0.189067
+ImpGreedy      ,db=3, M=0.300000, 0.048974
+ImpGreedy LIB       ,db=0.300000, M=3, 0.166910
+Cube        ,db=3, M=0.300000, 0.314937
+Cube LIB       ,db=10000, M=0.300000, 0.408418
+Sphere      ,db=3, M=0.300000, 0.050220
+Sphere LIB     ,db=3, M=0.300000 , 0.193682
+ImpGreedy      ,db=3, M=0.300000, 0.046825
+ImpGreedy LIB       ,db=0.300000, M=3, 0.161954
+Cube        ,db=3, M=0.300000, 0.308424
+Cube LIB       ,db=10000, M=0.300000, 0.417484
+Sphere      ,db=3, M=0.300000, 0.047565
+Sphere LIB     ,db=3, M=0.300000 , 0.180283
+ImpGreedy      ,db=3, M=0.300000, 0.044841
+ImpGreedy LIB       ,db=0.300000, M=3, 0.151637
+Cube        ,db=3, M=0.300000, 0.313903
+Cube LIB       ,db=10000, M=0.300000, 0.399849
+Sphere      ,db=3, M=0.300000, 0.047592
+Sphere LIB     ,db=3, M=0.300000 , 0.183613
+ImpGreedy      ,db=3, M=0.300000, 0.046446
+ImpGreedy LIB       ,db=0.300000, M=3, 0.167629
+Cube        ,db=3, M=0.300000, 0.308903
+Cube LIB       ,db=10000, M=0.300000, 0.402505
+Sphere      ,db=3, M=0.300000, 0.047730
+Sphere LIB     ,db=3, M=0.300000 , 0.180119
+ImpGreedy      ,db=3, M=0.300000, 0.046944
+ImpGreedy LIB       ,db=0.300000, M=3, 0.170133
+Cube        ,db=4, M=0.400000, 0.359258
+Cube LIB       ,db=10000, M=0.400000, 0.500750
+Sphere      ,db=4, M=0.400000, 0.047379
+Sphere LIB     ,db=4, M=0.400000 , 0.063651
+ImpGreedy      ,db=4, M=0.400000, 0.046384
+ImpGreedy LIB       ,db=0.400000, M=4, 0.080620
+Cube        ,db=4, M=0.400000, 0.253659
+Cube LIB       ,db=10000, M=0.400000, 0.427420
+Sphere      ,db=4, M=0.400000, 0.036744
+Sphere LIB     ,db=4, M=0.400000 , 0.086651
+ImpGreedy      ,db=4, M=0.400000, 0.037517
+ImpGreedy LIB       ,db=0.400000, M=4, 0.077053
+Cube        ,db=4, M=0.400000, 0.218544
+Cube LIB       ,db=10000, M=0.400000, 0.393690
+Sphere      ,db=4, M=0.400000, 0.046091
+Sphere LIB     ,db=4, M=0.400000 , 0.111746
+ImpGreedy      ,db=4, M=0.400000, 0.045467
+ImpGreedy LIB       ,db=0.400000, M=4, 0.106418
+Cube        ,db=4, M=0.400000, 0.245434
+Cube LIB       ,db=10000, M=0.400000, 0.373167
+Sphere      ,db=4, M=0.400000, 0.045799
+Sphere LIB     ,db=4, M=0.400000 , 0.106718
+ImpGreedy      ,db=4, M=0.400000, 0.046688
+ImpGreedy LIB       ,db=0.400000, M=4, 0.103232
+Cube        ,db=4, M=0.400000, 0.253443
+Cube LIB       ,db=10000, M=0.400000, 0.392165
+Sphere      ,db=4, M=0.400000, 0.048113
+Sphere LIB     ,db=4, M=0.400000 , 0.107400
+ImpGreedy      ,db=4, M=0.400000, 0.048836
+ImpGreedy LIB       ,db=0.400000, M=4, 0.103513
+Cube        ,db=4, M=0.400000, 0.245053
+Cube LIB       ,db=10000, M=0.400000, 0.402160
+Sphere      ,db=4, M=0.400000, 0.051541
+Sphere LIB     ,db=4, M=0.400000 , 0.110557
+ImpGreedy      ,db=4, M=0.400000, 0.051203
+ImpGreedy LIB       ,db=0.400000, M=4, 0.109116
+Cube        ,db=4, M=0.400000, 0.257072
+Cube LIB       ,db=10000, M=0.400000, 0.406081
+Sphere      ,db=4, M=0.400000, 0.049519
+Sphere LIB     ,db=4, M=0.400000 , 0.104454
+ImpGreedy      ,db=4, M=0.400000, 0.051089
+ImpGreedy LIB       ,db=0.400000, M=4, 0.104082
+Cube        ,db=4, M=0.400000, 0.243079
+Cube LIB       ,db=10000, M=0.400000, 0.421380
+Sphere      ,db=4, M=0.400000, 0.047248
+Sphere LIB     ,db=4, M=0.400000 , 0.098884
+ImpGreedy      ,db=4, M=0.400000, 0.048670
+ImpGreedy LIB       ,db=0.400000, M=4, 0.099024
+Cube        ,db=4, M=0.400000, 0.252198
+Cube LIB       ,db=10000, M=0.400000, 0.402609
+Sphere      ,db=4, M=0.400000, 0.045969
+Sphere LIB     ,db=4, M=0.400000 , 0.097424
+ImpGreedy      ,db=4, M=0.400000, 0.047292
+ImpGreedy LIB       ,db=0.400000, M=4, 0.098491
+Cube        ,db=4, M=0.400000, 0.260262
+Cube LIB       ,db=10000, M=0.400000, 0.405047
+Sphere      ,db=4, M=0.400000, 0.046768
+Sphere LIB     ,db=4, M=0.400000 , 0.100281
+ImpGreedy      ,db=4, M=0.400000, 0.047961
+ImpGreedy LIB       ,db=0.400000, M=4, 0.100486
+Cube        ,db=5, M=0.500000, 0.374794
+Cube LIB       ,db=10000, M=0.500000, 0.504242
+Sphere      ,db=5, M=0.500000, 0.078480
+Sphere LIB     ,db=5, M=0.500000 , 0.087508
+ImpGreedy      ,db=5, M=0.500000, 0.065679
+ImpGreedy LIB       ,db=0.500000, M=5, 0.101107
+Cube        ,db=5, M=0.500000, 0.338578
+Cube LIB       ,db=10000, M=0.500000, 0.439595
+Sphere      ,db=5, M=0.500000, 0.062470
+Sphere LIB     ,db=5, M=0.500000 , 0.068757
+ImpGreedy      ,db=5, M=0.500000, 0.054007
+ImpGreedy LIB       ,db=0.500000, M=5, 0.077739
+Cube        ,db=5, M=0.500000, 0.332588
+Cube LIB       ,db=10000, M=0.500000, 0.402843
+Sphere      ,db=5, M=0.500000, 0.056886
+Sphere LIB     ,db=5, M=0.500000 , 0.064256
+ImpGreedy      ,db=5, M=0.500000, 0.047138
+ImpGreedy LIB       ,db=0.500000, M=5, 0.065255
+Cube        ,db=5, M=0.500000, 0.300833
+Cube LIB       ,db=10000, M=0.500000, 0.380328
+Sphere      ,db=5, M=0.500000, 0.050572
+Sphere LIB     ,db=5, M=0.500000 , 0.060816
+ImpGreedy      ,db=5, M=0.500000, 0.046829
+ImpGreedy LIB       ,db=0.500000, M=5, 0.063426
+Cube        ,db=5, M=0.500000, 0.304790
+Cube LIB       ,db=10000, M=0.500000, 0.391200
+Sphere      ,db=5, M=0.500000, 0.049283
+Sphere LIB     ,db=5, M=0.500000 , 0.060573
+ImpGreedy      ,db=5, M=0.500000, 0.044527
+ImpGreedy LIB       ,db=0.500000, M=5, 0.061301
+Cube        ,db=5, M=0.500000, 0.305894
+Cube LIB       ,db=10000, M=0.500000, 0.394528
+Sphere      ,db=5, M=0.500000, 0.052820
+Sphere LIB     ,db=5, M=0.500000 , 0.069290
+ImpGreedy      ,db=5, M=0.500000, 0.045974
+ImpGreedy LIB       ,db=0.500000, M=5, 0.063203
+Cube        ,db=5, M=0.500000, 0.319664
+Cube LIB       ,db=10000, M=0.500000, 0.402034
+Sphere      ,db=5, M=0.500000, 0.053702
+Sphere LIB     ,db=5, M=0.500000 , 0.073015
+ImpGreedy      ,db=5, M=0.500000, 0.047739
+ImpGreedy LIB       ,db=0.500000, M=5, 0.069505
+Cube        ,db=5, M=0.500000, 0.324813
+Cube LIB       ,db=10000, M=0.500000, 0.423535
+Sphere      ,db=5, M=0.500000, 0.052279
+Sphere LIB     ,db=5, M=0.500000 , 0.073578
+ImpGreedy      ,db=5, M=0.500000, 0.047836
+ImpGreedy LIB       ,db=0.500000, M=5, 0.073784
+Cube        ,db=5, M=0.500000, 0.326901
+Cube LIB       ,db=10000, M=0.500000, 0.407401
+Sphere      ,db=5, M=0.500000, 0.051296
+Sphere LIB     ,db=5, M=0.500000 , 0.072767
+ImpGreedy      ,db=5, M=0.500000, 0.047437
+ImpGreedy LIB       ,db=0.500000, M=5, 0.071969
+Cube        ,db=5, M=0.500000, 0.332156
+Cube LIB       ,db=10000, M=0.500000, 0.410969
+Sphere      ,db=5, M=0.500000, 0.049624
+Sphere LIB     ,db=5, M=0.500000 , 0.070055
+ImpGreedy      ,db=5, M=0.500000, 0.045592
+ImpGreedy LIB       ,db=0.500000, M=5, 0.068305

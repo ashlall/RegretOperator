@@ -39,7 +39,7 @@ int main(int argc, char** argv)
                       };
 	if (argc <= 4)
 	{
-		printf ("usage: ./vary-n file-prefix K M db\n");
+		printf ("usage: ./vary-N file-prefix K M db\n");
 		return 0;
 	}
 
@@ -49,10 +49,10 @@ int main(int argc, char** argv)
     M = atof(argv[3]);
     db = atoi(argv[4]);
   }
-	sprintf(filename, "plot/varyn-%s-k%d-db%d", argv[1], K, db);
+	sprintf(filename, "plot/varyN-%s-k%d-db%d", argv[1], K, db);
 	fp = fopen(filename, "w");
 
-	sprintf(filename, "plot/varyn-%s-k%d-db%d.log", argv[1], K, db);
+	sprintf(filename, "plot/varyN-%s-k%d-db%d.log", argv[1], K, db);
   log = fopen(filename, "w");
 
 	for(N = 100; N <= 1000000; N *= 10)

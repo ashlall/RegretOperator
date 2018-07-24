@@ -40,7 +40,7 @@ int main(int argc, char** argv)
                       };
 	if (argc < 4)
 	{
-		printf ("usage: ./vary-k file-prefix db M\n");
+		printf ("usage: ./vary-K file-prefix db M\n");
 		return 0;
 	}
 
@@ -63,7 +63,7 @@ int main(int argc, char** argv)
 		{
 			rr[i] = 0.0;
 			if ( i < NUM_METHODS /2)
-			{	
+			{
 				times[i] = 0.0;
 			}
 		}
@@ -81,15 +81,15 @@ int main(int argc, char** argv)
 
 			// Cube algorithm
       cout<<"------------------------Transformed Cube-----------------------"<<j+1<<endl;
-	gettimeofday(&start, NULL);     
+	gettimeofday(&start, NULL);
  	pPrime = transformforth(db,D,p,N);
 			cube(D, N, K, pPrime, maxIndex);
 	gettimeofday(&end, NULL);
-	
-	
+
+
       i = 0;
       LIB = 0;
-      times[i/2] += (end.tv_sec - start.tv_sec) + (double) (end.tv_usec - start.tv_usec)/1000000;  
+      times[i/2] += (end.tv_sec - start.tv_sec) + (double) (end.tv_usec - start.tv_usec)/1000000;
 	      rr[i] += evaluateRandomLIB(D, N, K, pPrime, maxIndex, REPEATS, LIB, db, VERBOSE, M);
 			printf("%s,K =%d, n=%d, %lf s, %lf\n", methods[i],K, N, times[i/2]/(j+1), rr[i]/(j+1));
 			fprintf(log, "%s,K =%d, n=%d, %lf s, %lf\n", methods[i],K, N, times[i/2]/(j+1), rr[i]/(j+1));
@@ -165,7 +165,7 @@ int main(int argc, char** argv)
 		printf("\n");
 		for(i = 0; i < NUM_METHODS; ++i)
 			fprintf(fp, "\t%lf", rr[i]/DATAREPEATS);
-		for (i = 0; i < NUM_METHODS/2; i++ ) 
+		for (i = 0; i < NUM_METHODS/2; i++ )
 			fprintf(fp, "\t%lf", times[i]/DATAREPEATS);
 		fprintf(fp, "\n");
 		fflush(fp);
