@@ -25,11 +25,37 @@
 
 using namespace std;
 
-point* read_points(char* input)
+// point* read_points(char* input)
+// {
+//     FILE * c_fp;
+//     char filename[MAX_FILENAME_LENG];
+//     sprintf(filename, "%s", input);
+//     if ((c_fp = fopen(filename, "r")) == NULL)
+//     {
+//         fprintf(stderr, "Cannot open the data file %s.\n", filename);
+//         exit(0);
+//     }
+//     int number_of_points, dim;
+//     fscanf(c_fp, "%i%i", &number_of_points, &dim);
+//
+//     point* point_set = new struct point[number_of_points];
+//     // read points line by line
+//     for (int i = 0; i < number_of_points; i++)
+//     {
+//         point_set[i].a = new double[dim];
+//         point_set[i].d = dim;
+//         for (int j = 0; j < dim; j++)
+//         {
+//             fscanf(c_fp, "%lf", &point_set[i].a[j]);
+//         }
+//     }
+//     return point_set;
+//
+// }
+
+point* readPoints(char filename[])
 {
     FILE * c_fp;
-    char filename[MAX_FILENAME_LENG];
-    sprintf(filename, "%s", input);
     if ((c_fp = fopen(filename, "r")) == NULL)
     {
         fprintf(stderr, "Cannot open the data file %s.\n", filename);
@@ -50,8 +76,8 @@ point* read_points(char* input)
         }
     }
     return point_set;
-
 }
+
 double dot(struct point p, double* w)
 {
 // This struct stores a point and its component in a d-dimensional space
