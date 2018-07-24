@@ -1,5 +1,5 @@
 //==========================================================================================
-//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang Nguyen, Matthew Rinker, Ashwin Lall 
+//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang Nguyen, Matthew Rinker, Ashwin Lall
 //
 //This file is a part of the RegretOperator project.
 //
@@ -21,6 +21,7 @@
 #define REGRETOPERATOR_SRC_CUBE_CUBE_H_
 
 #include "point.h"
+#include <cmath>
 
 void cube(int D, int N, int K, struct point *p, int *maxIndex);
 int cubealgorithm(int D, int N, int K, struct point *p, int L, int t, struct point *c, struct point *answer);

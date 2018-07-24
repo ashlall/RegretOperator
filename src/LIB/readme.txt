@@ -1,5 +1,5 @@
 //==========================================================================================
-//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang Nguyen, Matthew Rinker, Ashwin Lall
+//Copyright 2018 ©, 2018 Minh Do, Hiep phan, Quang Nguyen, Matthew Rinker, Ashwin Lall 
 //
 //This file is a part of the RegretOperator project.
 //
@@ -17,27 +17,4 @@
 //along with this program. If not, see <http://www.gnu.org/licenses/>.
 //==========================================================================================
 
-
-#ifndef REGRETOPERATOR_SRC_POINT_H_
-#define REGRETOPERATOR_SRC_POINT_H_
-
-#define MAXDIM 20
-#define MAX_FILENAME_LENG     256
-
-struct point
-{
-    int d;
-    double* a;
-};
-
-double dot(struct point, double*);
-struct point maxPoint(int, struct point*, double*);
-double print(point);
-void sort(struct point*, int);
-int equals(struct point, struct point);
-int dominates(struct point, struct point);
-point* readPoints(char filename[]);
-int pointcmp(const void *a, const void *b);
-
-// point* read_points(char* input);
-#endif
+This folder contains testing documents
