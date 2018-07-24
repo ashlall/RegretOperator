@@ -25,6 +25,58 @@
 
 using namespace std;
 
+point* read_points(char* input)
+{
+    FILE * c_fp;
+    char filename[MAX_FILENAME_LENG];
+    sprintf(filename, "%s", input);
+    if ((c_fp = fopen(filename, "r")) == NULL)
+    {
+        fprintf(stderr, "Cannot open the data file %s.\n", filename);
+        exit(0);
+    }
+    int number_of_points, dim;
+    fscanf(c_fp, "%i%i", &number_of_points, &dim);
+
+    point* point_set = new struct point[number_of_points];
+    // read points line by line
+    for (int i = 0; i < number_of_points; i++)
+    {
+        point_set[i].a = new double[dim];
+        point_set[i].d = dim;
+        for (int j = 0; j < dim; j++)
+        {
+            fscanf(c_fp, "%lf", &point_set[i].a[j]);
+        }
+    }
+    return point_set;
+
+}
+
+point* readPoints(char filename[])
+{
+    FILE * c_fp;
+    if ((c_fp = fopen(filename, "r")) == NULL)
+    {
+        fprintf(stderr, "Cannot open the data file %s.\n", filename);
+        exit(0);
+    }
+    int number_of_points, dim;
+    fscanf(c_fp, "%i%i", &number_of_points, &dim);
+
+    point* point_set = new struct point[number_of_points];
+    // read points line by line
+    for (int i = 0; i < number_of_points; i++)
+    {
+        point_set[i].a = new double[dim];
+        point_set[i].d = dim;
+        for (int j = 0; j < dim; j++)
+        {
+            fscanf(c_fp, "%lf", &point_set[i].a[j]);
+        }
+    }
+    return point_set;
+}
 
 double dot(struct point p, double* w)
 {
@@ -64,7 +116,7 @@ struct point maxPoint(int N, struct point *p, double *v)
 
 
 // Prints the components of a point
-double print(struct  point p)
+double print(point p)
 {
 	for(int i = 0; i < p.d; ++i)
 		printf("%lf ",p.a[i]);

@@ -21,6 +21,9 @@
 #ifndef REGRETOPERATOR_SRC_POINT_H_
 #define REGRETOPERATOR_SRC_POINT_H_
 
+#define MAXDIM 20
+#define MAX_FILENAME_LENG     256
+
 struct point
 {
     int d;
@@ -29,9 +32,13 @@ struct point
 
 double dot(struct point, double*);
 struct point maxPoint(int, struct point*, double*);
-double print(struct point);
+double print(point);
 void sort(struct point*, int);
 int equals(struct point, struct point);
 int dominates(struct point, struct point);
+point* read_points(char * input);
+point* readPoints(char filename[]);
+int pointcmp(const void *a, const void *b);
 
+// point* read_points(char* input);
 #endif
