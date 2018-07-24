@@ -15,6 +15,7 @@ usage:
 ``
 ./generatedata <Dimensions> <Distribution> <NumberofPoints> <Filename>
 ``
+
 ``
 Distribution syntax: E(qually), A(nticorrelated), C(orrelated)
 ``
