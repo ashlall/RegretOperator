@@ -4,12 +4,12 @@ Regret Minimizing Query is a recently proposed query for multi-criteria decision
 ## Getting Started
 #### Prerequisites
 To understand more about the regret minimizing query, we refer readers to previously published work listed below.
-1. [Regret-Minimizing Representative Databases](http://www.vldb.org/pvldb/vldb2010/papers/R99.pdf) (this will give a solid definition and basic understanding)
+* [Regret-Minimizing Representative Databases](http://www.vldb.org/pvldb/vldb2010/papers/R99.pdf) (this will give a solid definition and basic understanding)
 
 The papers below are optional:
-2. [k-Regret Queries with Nonlinear Utilities](http://www.vldb.org/pvldb/vol8/p2098-kesslerfaulkner.pdf)
-3. [Efficient k-Regret query Algorithm with Restriction-free Bound for any Dimensionality](https://dl.acm.org/citation.cfm?id=3183713.3196903)
-4. [Interactive Regret Minimization](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.306.6067&rep=rep1&type=pdf)
+1. [k-Regret Queries with Nonlinear Utilities](http://www.vldb.org/pvldb/vol8/p2098-kesslerfaulkner.pdf)
+2. [Efficient k-Regret query Algorithm with Restriction-free Bound for any Dimensionality](https://dl.acm.org/citation.cfm?id=3183713.3196903)
+3. [Interactive Regret Minimization](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.306.6067&rep=rep1&type=pdf)
 
 The <b>References</b> section in those papers is also a good source to find more about the regret minimizing query.
 
