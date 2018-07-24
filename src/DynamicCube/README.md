@@ -62,4 +62,4 @@ For example, to generate the plots for vary-n insertion test, use: `./makeplot n
 To generate the plots for vary-m, use: `./makeplot varym`.
 
 #### For real-world datasets
-To generate the plots for all 4 real-world datasets (`nba`, `color`, `house`, `stock`), use `./makeplot realdataset`. This will generate the average regret ratio plot `realdata_rr.eps` and running time plot `realdata_rt.eps` in the `Plots` folder. Note that this command requires valid results for all 4 datasets listed above. 
+To generate the plots for all 4 real-world datasets (`nba`, `color`, `house`, `stock`), use `./makeplot realdataset`. This will generate the average regret ratio plot `testrealdata_rr.eps` and running time plot `testrealdata_rt.eps` in the `Plots` folder. Note that this command requires valid results for all 4 datasets listed above. 
