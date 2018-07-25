@@ -24,22 +24,25 @@
 
 using namespace std;
 
+const int REALDATA_NUM = 4;
 const string dir = "Results/";
 const string input_ins_files[3] = {"varyn.log","varyd.log","varyk.log"};
 const string input_del_files[3] = {"varyn-del.log","varyd-del.log","varyk-del.log"};
+const string input_real[4] = {"nba.log","color.log","house.log","stock.log"};
 
 enum {RRATIO, RTIME};
 
 void makeplot(char test_type, int plot_type, string filename);
 
 // Usage: ./makeplot <N|D|K> <(I)nsert|(D)elete>
+//    or: ./makeplot <input>
 int main(int argc, char* argv[])
 {
 	int index;
 
 	int info1, info2;
 	int tests;
-	
+
 	if (argc != 2 && argc != 3)
 	{
 		cout << "Usage: ./makeplot <N|D|K> <(I)nsert|(D)elete>\n";
@@ -47,7 +50,7 @@ int main(int argc, char* argv[])
 		cout << "Inputs include: varym, realdataset\n";
 		return 0;
 	}
-	
+
 	if (argc == 2)
 	{
 		string inputname = argv[1];
@@ -68,13 +71,13 @@ int main(int argc, char* argv[])
 				input >> m;
 				output_rt << m << ' ';
 				output_rr << m << ' ';
-				
+
 				input >> xvalue;
 				output_rt << xvalue << endl;
-				
+
 				input >> xvalue;
 				output_rr << xvalue*100 << endl;
-				
+
 				// discard unused inputs
 				for (int j = 0; j < 5; ++j)
 					input >> xvalue;
@@ -82,12 +85,46 @@ int main(int argc, char* argv[])
 			input.close();
 			output_rt.close();
 			output_rr.close();
-			
+
 			makeplot('m', RRATIO, "varym_rr");
 			makeplot('m', RTIME, "varym_rt");
-			
+
 			system("gnuplot varym_rr.plot");
 			system("gnuplot varym_rt.plot");
+		}
+
+		if (inputname == "realdataset")
+		{
+			ifstream input;
+			string outputname = "testrealdata";
+			ofstream output_rr(outputname + "_rr.txt");
+			ofstream output_rt(outputname + "_rt.txt");
+			for (int i = 0; i < REALDATA_NUM; ++i)
+			{
+				input.open(dir + input_real[i]);
+				input >> info1;
+				input >> info2;
+
+				double value;
+				output_rr << i+1 << ' ';
+				output_rt << i+1 << ' ';
+
+				input >> value;
+				output_rt << value << endl;
+
+				input >> value;
+				output_rr << value*100 << endl;
+
+				input.close();
+			}
+			output_rr.close();
+			output_rt.close();
+
+			makeplot('r', RRATIO, outputname + "_rr");
+			makeplot('r', RTIME, outputname + "_rt");
+			
+			system("gnuplot testrealdata_rr.plot");
+			system("gnuplot testrealdata_rt.plot");
 		}
 		system("rm *.plot");
 		system("rm *.txt");
@@ -285,6 +322,10 @@ void makeplot(char test_type, int plot_type, string filename)
 	{
 		//output << "set logscale x\n";
 	}
+	else if (att == 'r')
+	{
+		output << "set xtics (\"nba\" 1, \"color\" 2, \"house\" 3, \"stock\" 4)\n";
+	}
 
 	if (test_type == 'i')
 	{
@@ -298,12 +339,12 @@ void makeplot(char test_type, int plot_type, string filename)
 		output << "plot \"" << file << "\" using  1:2 title 'Cube' with linespoints lw 2, \""
 			   << file << "\" using 1:3 title 'Dynamic Cube' with linespoints lw 2\n";
 	}
-	else if (test_type == 'm')
+	else if (test_type == 'm' || test_type == 'r')
 	{
 		if (plot_type == 0)
-			output << "plot \"" << file << "\" using 1:2 title 'Average MRR' with linespoints lw 2\n";
+			output << "plot \"" << file << "\" using 1:2 title 'Dynamic Cube' with linespoints lw 2\n";
 		else
-			output << "plot \"" << file << "\" using 1:2 title 'Running Time' with linespoints lw 2\n";
+			output << "plot \"" << file << "\" using 1:2 title 'Dynamic Cube' with linespoints lw 2\n";
 	}
 
 	output.close();
