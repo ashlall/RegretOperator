@@ -325,6 +325,9 @@ void makeplot(char test_type, int plot_type, string filename)
 	else if (att == 'r')
 	{
 		output << "set xtics (\"nba\" 1, \"color\" 2, \"house\" 3, \"stock\" 4)\n";
+		output << "set boxwidth 0.5\n";
+		output << "set style fill solid\n";
+		output << "set xlabel \"Dataset\"\n";
 	}
 
 	if (test_type == 'i')
@@ -339,12 +342,13 @@ void makeplot(char test_type, int plot_type, string filename)
 		output << "plot \"" << file << "\" using  1:2 title 'Cube' with linespoints lw 2, \""
 			   << file << "\" using 1:3 title 'Dynamic Cube' with linespoints lw 2\n";
 	}
-	else if (test_type == 'm' || test_type == 'r')
+	else if (test_type == 'm')
 	{
-		if (plot_type == 0)
-			output << "plot \"" << file << "\" using 1:2 title 'Dynamic Cube' with linespoints lw 2\n";
-		else
-			output << "plot \"" << file << "\" using 1:2 title 'Dynamic Cube' with linespoints lw 2\n";
+		output << "plot \"" << file << "\" using 1:2 title 'Dynamic Cube' with linespoints lw 2\n";
+	}
+	else if (test_type == 'r')
+	{
+		output << "plot \"" << file << "\" using 1:2 title 'Dynamic Cube' with boxes\n";
 	}
 
 	output.close();
