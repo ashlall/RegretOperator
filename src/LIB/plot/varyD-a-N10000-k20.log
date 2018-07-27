@@ -1,0 +1,480 @@
+Cube        ,D =3, n=10000, 0.109809
+Cube LIB       ,D =3, n=10000, 0.416934
+Sphere      ,D =3, n=10000 0.002256
+Sphere LIB     ,D =3, n=10000, 0.009012
+ImpGreedy      ,D =3, n=10000, 0.002394
+ImpGreedy LIB       ,D =3, n=10000, 0.249764
+Cube        ,D =3, n=10000, 0.160027
+Cube LIB       ,D =3, n=10000, 0.425122
+Sphere      ,D =3, n=10000 0.001128
+Sphere LIB     ,D =3, n=10000, 0.004506
+ImpGreedy      ,D =3, n=10000, 0.001356
+ImpGreedy LIB       ,D =3, n=10000, 0.124882
+Cube        ,D =3, n=10000, 0.172192
+Cube LIB       ,D =3, n=10000, 0.420842
+Sphere      ,D =3, n=10000 0.000752
+Sphere LIB     ,D =3, n=10000, 0.003004
+ImpGreedy      ,D =3, n=10000, 0.000904
+ImpGreedy LIB       ,D =3, n=10000, 0.083255
+Cube        ,D =3, n=10000, 0.156864
+Cube LIB       ,D =3, n=10000, 0.422041
+Sphere      ,D =3, n=10000 0.000630
+Sphere LIB     ,D =3, n=10000, 0.002421
+ImpGreedy      ,D =3, n=10000, 0.000725
+ImpGreedy LIB       ,D =3, n=10000, 0.062611
+Cube        ,D =3, n=10000, 0.150863
+Cube LIB       ,D =3, n=10000, 0.421107
+Sphere      ,D =3, n=10000 0.000504
+Sphere LIB     ,D =3, n=10000, 0.001937
+ImpGreedy      ,D =3, n=10000, 0.000580
+ImpGreedy LIB       ,D =3, n=10000, 0.050089
+Cube        ,D =3, n=10000, 0.165818
+Cube LIB       ,D =3, n=10000, 0.418554
+Sphere      ,D =3, n=10000 0.000420
+Sphere LIB     ,D =3, n=10000, 0.001614
+ImpGreedy      ,D =3, n=10000, 0.000483
+ImpGreedy LIB       ,D =3, n=10000, 0.041741
+Cube        ,D =3, n=10000, 0.169333
+Cube LIB       ,D =3, n=10000, 0.412094
+Sphere      ,D =3, n=10000 0.000446
+Sphere LIB     ,D =3, n=10000, 0.001536
+ImpGreedy      ,D =3, n=10000, 0.000534
+ImpGreedy LIB       ,D =3, n=10000, 0.035929
+Cube        ,D =3, n=10000, 0.171767
+Cube LIB       ,D =3, n=10000, 0.410091
+Sphere      ,D =3, n=10000 0.000391
+Sphere LIB     ,D =3, n=10000, 0.001344
+ImpGreedy      ,D =3, n=10000, 0.000467
+ImpGreedy LIB       ,D =3, n=10000, 0.031438
+Cube        ,D =3, n=10000, 0.170467
+Cube LIB       ,D =3, n=10000, 0.412418
+Sphere      ,D =3, n=10000 0.000356
+Sphere LIB     ,D =3, n=10000, 0.001443
+ImpGreedy      ,D =3, n=10000, 0.000415
+ImpGreedy LIB       ,D =3, n=10000, 0.027945
+Cube        ,D =3, n=10000, 0.181984
+Cube LIB       ,D =3, n=10000, 0.414949
+Sphere      ,D =3, n=10000 0.000321
+Sphere LIB     ,D =3, n=10000, 0.001299
+ImpGreedy      ,D =3, n=10000, 0.000374
+ImpGreedy LIB       ,D =3, n=10000, 0.025150
+Cube        ,D =4, n=10000, 0.277320
+Cube LIB       ,D =4, n=10000, 0.463781
+Sphere      ,D =4, n=10000 0.008288
+Sphere LIB     ,D =4, n=10000, 0.628573
+ImpGreedy      ,D =4, n=10000, 0.004845
+ImpGreedy LIB       ,D =4, n=10000, 0.536475
+Cube        ,D =4, n=10000, 0.281828
+Cube LIB       ,D =4, n=10000, 0.448370
+Sphere      ,D =4, n=10000 0.006377
+Sphere LIB     ,D =4, n=10000, 0.352721
+ImpGreedy      ,D =4, n=10000, 0.004703
+ImpGreedy LIB       ,D =4, n=10000, 0.304627
+Cube        ,D =4, n=10000, 0.283517
+Cube LIB       ,D =4, n=10000, 0.442139
+Sphere      ,D =4, n=10000 0.005887
+Sphere LIB     ,D =4, n=10000, 0.235571
+ImpGreedy      ,D =4, n=10000, 0.003565
+ImpGreedy LIB       ,D =4, n=10000, 0.203737
+Cube        ,D =4, n=10000, 0.271845
+Cube LIB       ,D =4, n=10000, 0.440657
+Sphere      ,D =4, n=10000 0.005950
+Sphere LIB     ,D =4, n=10000, 0.178784
+ImpGreedy      ,D =4, n=10000, 0.004185
+ImpGreedy LIB       ,D =4, n=10000, 0.169795
+Cube        ,D =4, n=10000, 0.257769
+Cube LIB       ,D =4, n=10000, 0.450220
+Sphere      ,D =4, n=10000 0.006276
+Sphere LIB     ,D =4, n=10000, 0.146397
+ImpGreedy      ,D =4, n=10000, 0.005313
+ImpGreedy LIB       ,D =4, n=10000, 0.139693
+Cube        ,D =4, n=10000, 0.250981
+Cube LIB       ,D =4, n=10000, 0.443246
+Sphere      ,D =4, n=10000 0.006718
+Sphere LIB     ,D =4, n=10000, 0.127704
+ImpGreedy      ,D =4, n=10000, 0.005142
+ImpGreedy LIB       ,D =4, n=10000, 0.122278
+Cube        ,D =4, n=10000, 0.246225
+Cube LIB       ,D =4, n=10000, 0.450699
+Sphere      ,D =4, n=10000 0.007454
+Sphere LIB     ,D =4, n=10000, 0.252318
+ImpGreedy      ,D =4, n=10000, 0.006074
+ImpGreedy LIB       ,D =4, n=10000, 0.168609
+Cube        ,D =4, n=10000, 0.238811
+Cube LIB       ,D =4, n=10000, 0.456744
+Sphere      ,D =4, n=10000 0.007765
+Sphere LIB     ,D =4, n=10000, 0.227938
+ImpGreedy      ,D =4, n=10000, 0.006871
+ImpGreedy LIB       ,D =4, n=10000, 0.158660
+Cube        ,D =4, n=10000, 0.239653
+Cube LIB       ,D =4, n=10000, 0.456530
+Sphere      ,D =4, n=10000 0.007468
+Sphere LIB     ,D =4, n=10000, 0.203343
+ImpGreedy      ,D =4, n=10000, 0.006751
+ImpGreedy LIB       ,D =4, n=10000, 0.252142
+Cube        ,D =4, n=10000, 0.242681
+Cube LIB       ,D =4, n=10000, 0.459443
+Sphere      ,D =4, n=10000 0.007180
+Sphere LIB     ,D =4, n=10000, 0.183390
+ImpGreedy      ,D =4, n=10000, 0.006402
+ImpGreedy LIB       ,D =4, n=10000, 0.228077
+Cube        ,D =5, n=10000, 0.261720
+Cube LIB       ,D =5, n=10000, 0.422761
+Sphere      ,D =5, n=10000 0.036338
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.030300
+ImpGreedy LIB       ,D =5, n=10000, 1.000000
+Cube        ,D =5, n=10000, 0.264291
+Cube LIB       ,D =5, n=10000, 0.419086
+Sphere      ,D =5, n=10000 0.038205
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.035522
+ImpGreedy LIB       ,D =5, n=10000, 1.000000
+Cube        ,D =5, n=10000, 0.271993
+Cube LIB       ,D =5, n=10000, 0.395274
+Sphere      ,D =5, n=10000 0.035262
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.034939
+ImpGreedy LIB       ,D =5, n=10000, 1.000000
+Cube        ,D =5, n=10000, 0.268998
+Cube LIB       ,D =5, n=10000, 0.393957
+Sphere      ,D =5, n=10000 0.036870
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.037077
+ImpGreedy LIB       ,D =5, n=10000, 1.000000
+Cube        ,D =5, n=10000, 0.280626
+Cube LIB       ,D =5, n=10000, 0.395721
+Sphere      ,D =5, n=10000 0.041278
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.037429
+ImpGreedy LIB       ,D =5, n=10000, 1.000000
+Cube        ,D =5, n=10000, 0.276746
+Cube LIB       ,D =5, n=10000, 0.407541
+Sphere      ,D =5, n=10000 0.038955
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.036253
+ImpGreedy LIB       ,D =5, n=10000, 1.000000
+Cube        ,D =5, n=10000, 0.282774
+Cube LIB       ,D =5, n=10000, 0.398881
+Sphere      ,D =5, n=10000 0.037190
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.035317
+ImpGreedy LIB       ,D =5, n=10000, 1.000000
+Cube        ,D =5, n=10000, 0.284755
+Cube LIB       ,D =5, n=10000, 0.396742
+Sphere      ,D =5, n=10000 0.036210
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.034519
+ImpGreedy LIB       ,D =5, n=10000, 1.000000
+Cube        ,D =5, n=10000, 0.275714
+Cube LIB       ,D =5, n=10000, 0.400569
+Sphere      ,D =5, n=10000 0.036505
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.034638
+ImpGreedy LIB       ,D =5, n=10000, 1.000000
+Cube        ,D =5, n=10000, 0.275301
+Cube LIB       ,D =5, n=10000, 0.403788
+Sphere      ,D =5, n=10000 0.035786
+Sphere LIB     ,D =5, n=10000, 1.000000
+ImpGreedy      ,D =5, n=10000, 0.033446
+ImpGreedy LIB       ,D =5, n=10000, 0.997310
+Cube        ,D =6, n=10000, 0.238166
+Cube LIB       ,D =6, n=10000, 0.481623
+Sphere      ,D =6, n=10000 0.068809
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.064528
+ImpGreedy LIB       ,D =6, n=10000, 1.000000
+Cube        ,D =6, n=10000, 0.276343
+Cube LIB       ,D =6, n=10000, 0.416733
+Sphere      ,D =6, n=10000 0.063364
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.059430
+ImpGreedy LIB       ,D =6, n=10000, 1.000000
+Cube        ,D =6, n=10000, 0.279521
+Cube LIB       ,D =6, n=10000, 0.399934
+Sphere      ,D =6, n=10000 0.064655
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.063999
+ImpGreedy LIB       ,D =6, n=10000, 1.000000
+Cube        ,D =6, n=10000, 0.290697
+Cube LIB       ,D =6, n=10000, 0.389429
+Sphere      ,D =6, n=10000 0.063128
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.075777
+ImpGreedy LIB       ,D =6, n=10000, 1.000000
+Cube        ,D =6, n=10000, 0.303054
+Cube LIB       ,D =6, n=10000, 0.384056
+Sphere      ,D =6, n=10000 0.061975
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.071171
+ImpGreedy LIB       ,D =6, n=10000, 0.901088
+Cube        ,D =6, n=10000, 0.298621
+Cube LIB       ,D =6, n=10000, 0.377392
+Sphere      ,D =6, n=10000 0.060297
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.069035
+ImpGreedy LIB       ,D =6, n=10000, 0.917573
+Cube        ,D =6, n=10000, 0.286892
+Cube LIB       ,D =6, n=10000, 0.394422
+Sphere      ,D =6, n=10000 0.061710
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.068829
+ImpGreedy LIB       ,D =6, n=10000, 0.929348
+Cube        ,D =6, n=10000, 0.278211
+Cube LIB       ,D =6, n=10000, 0.390543
+Sphere      ,D =6, n=10000 0.062882
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.067400
+ImpGreedy LIB       ,D =6, n=10000, 0.938180
+Cube        ,D =6, n=10000, 0.281231
+Cube LIB       ,D =6, n=10000, 0.388772
+Sphere      ,D =6, n=10000 0.064775
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.067564
+ImpGreedy LIB       ,D =6, n=10000, 0.945049
+Cube        ,D =6, n=10000, 0.278079
+Cube LIB       ,D =6, n=10000, 0.392147
+Sphere      ,D =6, n=10000 0.066701
+Sphere LIB     ,D =6, n=10000, 1.000000
+ImpGreedy      ,D =6, n=10000, 0.070355
+ImpGreedy LIB       ,D =6, n=10000, 0.950544
+Cube        ,D =7, n=10000, 0.358016
+Cube LIB       ,D =7, n=10000, 0.405035
+Sphere      ,D =7, n=10000 0.069397
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.102097
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =7, n=10000, 0.326210
+Cube LIB       ,D =7, n=10000, 0.391808
+Sphere      ,D =7, n=10000 0.080433
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.107343
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =7, n=10000, 0.336606
+Cube LIB       ,D =7, n=10000, 0.378725
+Sphere      ,D =7, n=10000 0.086133
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.116148
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =7, n=10000, 0.322970
+Cube LIB       ,D =7, n=10000, 0.363345
+Sphere      ,D =7, n=10000 0.087416
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.110761
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =7, n=10000, 0.321078
+Cube LIB       ,D =7, n=10000, 0.356741
+Sphere      ,D =7, n=10000 0.087716
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.108393
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =7, n=10000, 0.313641
+Cube LIB       ,D =7, n=10000, 0.363333
+Sphere      ,D =7, n=10000 0.093073
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.111842
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =7, n=10000, 0.313720
+Cube LIB       ,D =7, n=10000, 0.366150
+Sphere      ,D =7, n=10000 0.099965
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.113826
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =7, n=10000, 0.321348
+Cube LIB       ,D =7, n=10000, 0.362630
+Sphere      ,D =7, n=10000 0.099932
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.114219
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =7, n=10000, 0.322520
+Cube LIB       ,D =7, n=10000, 0.364661
+Sphere      ,D =7, n=10000 0.103397
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.113451
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =7, n=10000, 0.328391
+Cube LIB       ,D =7, n=10000, 0.364699
+Sphere      ,D =7, n=10000 0.103945
+Sphere LIB     ,D =7, n=10000, 1.000000
+ImpGreedy      ,D =7, n=10000, 0.114099
+ImpGreedy LIB       ,D =7, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.302315
+Cube LIB       ,D =8, n=10000, 0.392743
+Sphere      ,D =8, n=10000 0.133163
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.121473
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.293468
+Cube LIB       ,D =8, n=10000, 0.392955
+Sphere      ,D =8, n=10000 0.129545
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.120318
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.305364
+Cube LIB       ,D =8, n=10000, 0.402475
+Sphere      ,D =8, n=10000 0.132689
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.126205
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.313628
+Cube LIB       ,D =8, n=10000, 0.380213
+Sphere      ,D =8, n=10000 0.129930
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.125025
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.317123
+Cube LIB       ,D =8, n=10000, 0.367654
+Sphere      ,D =8, n=10000 0.127548
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.133308
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.320947
+Cube LIB       ,D =8, n=10000, 0.359109
+Sphere      ,D =8, n=10000 0.128979
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.131826
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.330849
+Cube LIB       ,D =8, n=10000, 0.355317
+Sphere      ,D =8, n=10000 0.129102
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.133148
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.324304
+Cube LIB       ,D =8, n=10000, 0.355220
+Sphere      ,D =8, n=10000 0.124022
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.132230
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.324867
+Cube LIB       ,D =8, n=10000, 0.349551
+Sphere      ,D =8, n=10000 0.126742
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.132479
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =8, n=10000, 0.322387
+Cube LIB       ,D =8, n=10000, 0.349944
+Sphere      ,D =8, n=10000 0.125809
+Sphere LIB     ,D =8, n=10000, 1.000000
+ImpGreedy      ,D =8, n=10000, 0.135531
+ImpGreedy LIB       ,D =8, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.378709
+Cube LIB       ,D =9, n=10000, 0.363656
+Sphere      ,D =9, n=10000 0.157799
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.206101
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.348039
+Cube LIB       ,D =9, n=10000, 0.337292
+Sphere      ,D =9, n=10000 0.152688
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.188903
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.341346
+Cube LIB       ,D =9, n=10000, 0.325287
+Sphere      ,D =9, n=10000 0.154745
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.182958
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.343916
+Cube LIB       ,D =9, n=10000, 0.314049
+Sphere      ,D =9, n=10000 0.151313
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.176317
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.333320
+Cube LIB       ,D =9, n=10000, 0.320386
+Sphere      ,D =9, n=10000 0.152500
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.174662
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.337000
+Cube LIB       ,D =9, n=10000, 0.323591
+Sphere      ,D =9, n=10000 0.152932
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.171044
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.333332
+Cube LIB       ,D =9, n=10000, 0.327061
+Sphere      ,D =9, n=10000 0.153047
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.166063
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.336569
+Cube LIB       ,D =9, n=10000, 0.330635
+Sphere      ,D =9, n=10000 0.150223
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.169905
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.331953
+Cube LIB       ,D =9, n=10000, 0.328449
+Sphere      ,D =9, n=10000 0.148892
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.169365
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =9, n=10000, 0.334234
+Cube LIB       ,D =9, n=10000, 0.329850
+Sphere      ,D =9, n=10000 0.150417
+Sphere LIB     ,D =9, n=10000, 1.000000
+ImpGreedy      ,D =9, n=10000, 0.171255
+ImpGreedy LIB       ,D =9, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.325217
+Cube LIB       ,D =10, n=10000, 0.356470
+Sphere      ,D =10, n=10000 0.169844
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.185753
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.312255
+Cube LIB       ,D =10, n=10000, 0.341339
+Sphere      ,D =10, n=10000 0.174370
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.186692
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.298732
+Cube LIB       ,D =10, n=10000, 0.334164
+Sphere      ,D =10, n=10000 0.166881
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.180676
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.299892
+Cube LIB       ,D =10, n=10000, 0.333850
+Sphere      ,D =10, n=10000 0.162389
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.188588
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.293508
+Cube LIB       ,D =10, n=10000, 0.328553
+Sphere      ,D =10, n=10000 0.159894
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.188412
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.296544
+Cube LIB       ,D =10, n=10000, 0.328010
+Sphere      ,D =10, n=10000 0.161528
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.183649
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.301771
+Cube LIB       ,D =10, n=10000, 0.319447
+Sphere      ,D =10, n=10000 0.166738
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.182685
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.302504
+Cube LIB       ,D =10, n=10000, 0.321769
+Sphere      ,D =10, n=10000 0.164005
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.184990
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.301572
+Cube LIB       ,D =10, n=10000, 0.322772
+Sphere      ,D =10, n=10000 0.165297
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.185514
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
+Cube        ,D =10, n=10000, 0.306075
+Cube LIB       ,D =10, n=10000, 0.323316
+Sphere      ,D =10, n=10000 0.164102
+Sphere LIB     ,D =10, n=10000, 1.000000
+ImpGreedy      ,D =10, n=10000, 0.185653
+ImpGreedy LIB       ,D =10, n=10000, 1.000000
